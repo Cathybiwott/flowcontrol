@@ -1,6 +1,6 @@
 fun main() {
     number()
-    println(peopleNames(arrayOf("Makena", "Sally", "Favour","Samuel", "Kinya")))
+    println(peopleNames(arrayOf("Cathy", "Selina", "Brandy","Samuel", "Mary")))
     robot(3)
     robot(13)
     robot(24)
@@ -19,12 +19,12 @@ fun number(){
 //2. Create a function that takes in an array of names and returns the number of
 //names longer than 5 characters.
 fun peopleNames(names:Array<String>):Int{
-    var Z = 0
+    var y= 0
     for (name in names){
         if ( name.length>5)
-            Z ++
+            y++
     }
-    return Z
+    return y
 }
 
 //3.You are creating a robot to serve drinks at a party. The robot is required to
